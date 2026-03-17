@@ -1,0 +1,58 @@
+{
+    "hashes": [
+        {
+            "filename": "original.jpg",
+            "phash": "e9d09687c6cccc3c"
+        },
+        {
+            "filename": "resized.jpg",
+            "phash": "e9d09687c6cccc3c"
+        },
+        {
+            "filename": "digitally_recreated.jpg",
+            "phash": "e9f81097e683c68e"
+        },
+        {
+            "filename": "compressed.jpg",
+            "phash": "a9d09687c6cecc3c"
+        }
+    ],
+    "comparisons": [
+        {
+            "file1": "original.jpg",
+            "file2": "digitally_recreated.jpg",
+            "distance": 18,
+            "note": "Different"
+        },
+        {
+            "file1": "resized.jpg",
+            "file2": "digitally_recreated.jpg",
+            "distance": 18,
+            "note": "Different"
+        },
+        {
+            "file1": "digitally_recreated.jpg",
+            "file2": "compressed.jpg",
+            "distance": 18,
+            "note": "Different"
+        },
+        {
+            "file1": "original.jpg",
+            "file2": "compressed.jpg",
+            "distance": 2,
+            "note": "Very similar"
+        },
+        {
+            "file1": "resized.jpg",
+            "file2": "compressed.jpg",
+            "distance": 2,
+            "note": "Very similar"
+        },
+        {
+            "file1": "original.jpg",
+            "file2": "resized.jpg",
+            "distance": 0,
+            "note": "Nearly identical"
+        }
+    ]
+}
