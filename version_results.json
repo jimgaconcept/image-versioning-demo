@@ -2,57 +2,89 @@
     "hashes": [
         {
             "filename": "original.jpg",
+            "relation": "original",
+            "genre": "digitized cartoon",
             "phash": "e9d09687c6cccc3c"
         },
         {
             "filename": "resized.jpg",
+            "relation": "version of original",
+            "genre": "ddigitized cartoon",
             "phash": "e9d09687c6cccc3c"
         },
         {
+            "filename": "compressed.jpg",
+            "relation": "version of original",
+            "genre": "digitized cartoon",
+            "phash": "a9d09687c6cecc3c"
+        },
+        {
             "filename": "digitally_recreated.jpg",
+            "relation": "recreated image",
+            "genre": "digital cartoon",
             "phash": "e9f81097e683c68e"
         },
         {
-            "filename": "compressed.jpg",
-            "phash": "a9d09687c6cecc3c"
+            "filename": "davidzinyama.jpg",
+            "relation": "unrelated",
+            "genre": "photomontage",
+            "phash": "af80d03facf06387"
+        },
+        {
+            "filename": "stefano.menicagli_artist.jpg",
+            "relation": "unrelated",
+            "genre": "digital illustration",
+            "phash": "b9b8246681e9cfcc"
+        },
+        {
+            "filename": "game_of_throne_kano_emirate.jpg",
+            "relation": "unrelated",
+            "genre": "digital cartoon",
+            "phash": "b6ea519097859cdc"
         }
     ],
-    "comparisons": [
+    "original_ranked": [
         {
-            "file1": "original.jpg",
-            "file2": "digitally_recreated.jpg",
-            "distance": 18,
-            "note": "Different"
-        },
-        {
-            "file1": "resized.jpg",
-            "file2": "digitally_recreated.jpg",
-            "distance": 18,
-            "note": "Different"
-        },
-        {
-            "file1": "digitally_recreated.jpg",
-            "file2": "compressed.jpg",
-            "distance": 18,
-            "note": "Different"
-        },
-        {
-            "file1": "original.jpg",
-            "file2": "compressed.jpg",
-            "distance": 2,
-            "note": "Very similar"
-        },
-        {
-            "file1": "resized.jpg",
-            "file2": "compressed.jpg",
-            "distance": 2,
-            "note": "Very similar"
-        },
-        {
-            "file1": "original.jpg",
-            "file2": "resized.jpg",
+            "filename": "resized.jpg",
+            "relation": "version of original",
+            "genre": "ddigitized cartoon",
             "distance": 0,
-            "note": "Nearly identical"
+            "note": "Nearly identical to original"
+        },
+        {
+            "filename": "compressed.jpg",
+            "relation": "version of original",
+            "genre": "digitized cartoon",
+            "distance": 2,
+            "note": "Very similar to original"
+        },
+        {
+            "filename": "digitally_recreated.jpg",
+            "relation": "recreated image",
+            "genre": "digital cartoon",
+            "distance": 18,
+            "note": "Different from original"
+        },
+        {
+            "filename": "stefano.menicagli_artist.jpg",
+            "relation": "unrelated",
+            "genre": "digital illustration",
+            "distance": 26,
+            "note": "Different from original"
+        },
+        {
+            "filename": "game_of_throne_kano_emirate.jpg",
+            "relation": "unrelated",
+            "genre": "digital cartoon",
+            "distance": 30,
+            "note": "Different from original"
+        },
+        {
+            "filename": "davidzinyama.jpg",
+            "relation": "unrelated",
+            "genre": "photomontage",
+            "distance": 32,
+            "note": "Different from original"
         }
     ]
 }
